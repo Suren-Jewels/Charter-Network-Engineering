@@ -23,9 +23,9 @@ As a Network Field Engineer, I:
 - Ensured compliance with Charter’s operational standards
 
 ## 📂 Sample Artifacts
-- **DOCSIS Tuning Workflow** – stepwise notes on optimizing signal quality
-- **RF Analysis Logs** – annotated examples of troubleshooting interference
-- **Training Guide** – onboarding notes for junior engineers
+- **DOCSIS Tuning Workflow** → [artifacts/DOCSIS-Tuning-Workflow.md](artifacts/DOCSIS-Tuning-Workflow.md)
+- **RF Analysis Log (Sample)** → [artifacts/RF-Analysis-Log-Sample.md](artifacts/RF-Analysis-Log-Sample.md)
+- **Training Guide** Signal Check Script → [scripts/signal-check.sh](scripts/signal-check.sh)
 
 ## 📈 Impact
 - Increased customer satisfaction through faster resolution
