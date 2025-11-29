@@ -1,5 +1,3 @@
-# Charter-Network-Engineering
-Field engineering role at Charter Communications (2017–2019). Installed and tuned cable infrastructure, delivered $240K in upgrades, achieved 95% first‑attempt resolution across 300+ monthly service calls, and trained junior engineers to strengthen team performance.
 # Charter Communications – Network Field Engineer
 
 ## 📌 Overview
@@ -23,6 +21,16 @@ As a Network Field Engineer, I:
 - Documented installation and tuning procedures for reproducibility
 - Mentored junior engineers in troubleshooting and resolution techniques
 - Ensured compliance with Charter’s operational standards
+
+## 📂 Sample Artifacts
+- **DOCSIS Tuning Workflow** – stepwise notes on optimizing signal quality
+- **RF Analysis Logs** – annotated examples of troubleshooting interference
+- **Training Guide** – onboarding notes for junior engineers
+
+## 📈 Impact
+- Increased customer satisfaction through faster resolution
+- Reduced repeat service calls by standardizing troubleshooting
+- Strengthened team capability with structured training and documentation
 
 ## 🔗 Links
 - Resume alignment: *Charter Communications – Network Field Engineer (2017–2019)*
