@@ -22,10 +22,12 @@ As a Network Field Engineer, I:
 - Mentored junior engineers in troubleshooting and resolution techniques
 - Ensured compliance with Charter’s operational standards
 
-## 📂 Sample Artifacts
-- **DOCSIS Tuning Workflow** → [artifacts/DOCSIS-Tuning-Workflow.md](artifacts/DOCSIS-Tuning-Workflow.md)
-- **RF Analysis Log (Sample)** → [artifacts/RF-Analysis-Log-Sample.md](artifacts/RF-Analysis-Log-Sample.md)
-- **Training Guide** Signal Check Script → [scripts/signal-check.sh](scripts/signal-check.sh)
+## 📂 Artifacts & Script
+- **DOCSIS workflow:** [artifacts/DOCSIS-Tuning-Workflow.md](artifacts/DOCSIS-Tuning-Workflow.md)
+- **RF analysis log (sample):** [artifacts/RF-Analysis-Log-Sample.md](artifacts/RF-Analysis-Log-Sample.md)
+- **Signal check script:** [scripts/signal-check.sh](scripts/signal-check.sh)
+
+> Note: Sample data and illustrative script; sanitized for privacy.
 
 ## 📈 Impact
 - Increased customer satisfaction through faster resolution
