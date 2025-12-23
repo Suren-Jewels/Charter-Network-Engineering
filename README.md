@@ -234,15 +234,25 @@ By standardizing DOCSIS optimization and RF troubleshooting, this system enabled
 
 ## 🗂️ Repository Structure
 
+Charter-Network-Engineering/
+│
+├── artifacts/
+│   ├── DOCSIS-Tuning-Workflow.md        # Standard DOCSIS optimization workflow (sanitized)
+│   └── RF-Analysis-Log-Sample.md        # Sample RF analysis documentation & metrics (sanitized)
+│
+├── scripts/
+│   └── signal-check.sh                  # Automated signal quality validation script
+│
+└── README.md                            # Main project documentation
+
 ---
 
 ### 📁 Directory Descriptions
 
 | Directory | Purpose |
 |-----------|---------|
-| `artifacts/` | DOCSIS workflows, RF analysis samples, field documentation |
-| `scripts/` | Signal validation and diagnostic automation scripts |
-| `reports/` | Sample service logs, tuning reports, and field summaries |
+| `artifacts/` | DOCSIS tuning workflow, RF analysis samples, and field documentation |
+| `scripts/` | Automated signal validation and diagnostic scripts |
 
 ---
 
@@ -250,9 +260,9 @@ By standardizing DOCSIS optimization and RF troubleshooting, this system enabled
 
 | File | Description |
 |------|-------------|
-| `DOCSIS-Tuning-Workflow.md` | Standard operating procedure for DOCSIS optimization |
-| `RF-Analysis-Log-Sample.md` | Sample RF analysis documentation and metrics |
-| `signal-check.sh` | Automated signal quality validation script |
+| `artifacts/DOCSIS-Tuning-Workflow.md` | Standard operating procedure for DOCSIS optimization |
+| `artifacts/RF-Analysis-Log-Sample.md` | Sample RF analysis documentation and metrics |
+| `scripts/signal-check.sh` | Automated signal quality validation script |
 
 ---
 
