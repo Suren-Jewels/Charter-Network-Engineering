@@ -233,7 +233,7 @@ By standardizing DOCSIS optimization and RF troubleshooting, this system enabled
 ---
 
 ## 🗂️ Repository Structure
-
+```
 Charter-Network-Engineering/
 │
 ├── artifacts/
@@ -244,7 +244,7 @@ Charter-Network-Engineering/
 │   └── signal-check.sh                  # Automated signal quality validation script
 │
 └── README.md                            # Main project documentation
-
+```
 ---
 
 ### 📁 Directory Descriptions
