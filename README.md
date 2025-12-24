@@ -175,6 +175,7 @@ By standardizing DOCSIS optimization and RF troubleshooting, this system enabled
 ## 🚀 Deployment Workflow
 *(Renamed for Charter as “Infrastructure Deployment Workflow” — same structural slot)*
 
+**Pipeline:** *[CI] → [CD] → [Prod]*
 | Step | Action | Purpose |
 |------|--------|----------|
 | 1 | Assess existing cable plant | Identify upgrade requirements |
