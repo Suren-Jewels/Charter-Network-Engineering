@@ -9,36 +9,6 @@ This position demonstrated expertise in **RF engineering, DOCSIS systems, field 
 
 **Duration**: 2017–2019
 
----
-
-## 🧠 System Summary
-
-This repository showcases field engineering work focused on cable infrastructure, DOCSIS optimization, and RF diagnostics within Charter Communications’ broadband network.  
-It includes sanitized workflows, diagnostic scripts, and documentation from hands‑on service delivery across multiple service areas.
-
----
-
-## 🚀 Why This Work Matters
-
-Reliable broadband service depends on precise signal tuning, proactive diagnostics, and scalable field workflows.  
-This work directly improved customer satisfaction, reduced repeat service calls, and modernized aging infrastructure across Charter’s network footprint.
-
-By standardizing DOCSIS optimization and RF troubleshooting, this system enabled faster resolution, stronger team capability, and measurable service quality improvements.
-
----
-
-## 🧩 Engineering Challenges Solved
-
-| Area | Challenge | Outcome |
-|------|-----------|---------|
-| 📡 Signal Quality & Noise | Interference, ingress, and poor SNR impacting customer service | Improved signal levels and reduced noise through targeted RF tuning |
-| ⚙️ DOCSIS Stability | Modem drops, speed inconsistencies, upstream noise | Standardized DOCSIS optimization workflows improving reliability |
-| 🔧 Field Troubleshooting | High volume of complex service calls | Achieved 95% first‑attempt resolution across 300+ monthly calls |
-| 🏗️ Infrastructure Modernization | Aging cable plant and outdated components | Delivered $240K in upgrades across multiple service areas |
-| 👥 Team Capability | Junior engineers lacking structured training | Built training materials and hands‑on mentorship programs |
-
----
-
 ## 🎯 Responsibilities & Scope
 
 - Led cable infrastructure installation and optimization across multiple sites
@@ -47,8 +17,6 @@ By standardizing DOCSIS optimization and RF troubleshooting, this system enabled
 - Delivered major infrastructure modernization projects
 - Trained and mentored junior field engineers
 - Ensured compliance with Charter's operational and safety standards
-
----
 
 ## 🛠️ Tools & Technologies
 
@@ -91,7 +59,92 @@ By standardizing DOCSIS optimization and RF troubleshooting, this system enabled
 </tbody>
 </table>
 
----
+────────────────────────────────────────────────────────────────────────────────
+
+## 🧠 System Summary
+
+This repository showcases field engineering work focused on cable infrastructure, DOCSIS optimization, and RF diagnostics within Charter Communications’ broadband network.  
+It includes sanitized workflows, diagnostic scripts, and documentation from hands‑on service delivery across multiple service areas.
+
+## 🚀 Why This Work Matters
+
+Reliable broadband service depends on precise signal tuning, proactive diagnostics, and scalable field workflows.  
+This work directly improved customer satisfaction, reduced repeat service calls, and modernized aging infrastructure across Charter’s network footprint.
+
+By standardizing DOCSIS optimization and RF troubleshooting, this system enabled faster resolution, stronger team capability, and measurable service quality improvements.
+
+────────────────────────────────────────────────────────────────────────────────
+
+## 🧩 Architecture Overview
+```
++---------------------------+
+|   Customer Report Issue   |
++-------------+-------------+
+              |
+              v
++---------------------------+
+|   Field Assessment        |
+| Signal levels • Noise     |
++-------------+-------------+
+              |
+              v
++---------------------------+
+|   RF Diagnostics          |
+| Spectrum analysis         |
++-------------+-------------+
+              |
+              v
++---------------------------+
+|   Signal Optimization     |
+| Tuning • Installation     |
++-------------+-------------+
+              |
+              v
++---------------------------+
+|   Validation & Testing    |
+| Quality check • Metrics   |
++---------------------------+
+```
+
+### 📷 Visual Architecture Diagram (PNG)
+
+![Charter Network Architecture](Network_Architecture_Layers.png)
+
+## 🧩 Architecture Layers
+
+| Layer | Components | Function |
+|-------|------------|----------|
+| 📡 Cable Infrastructure Layer | Coax plant, amplifiers, taps, splitters | Provides physical signal distribution across service areas |
+| 🔍 RF Diagnostics Layer | Spectrum analyzers, signal meters | Identifies noise, interference, and signal degradation |
+| ⚙️ DOCSIS Systems Layer | Modems, CMTS interactions, DOCSIS tuning | Ensures stable broadband performance and throughput |
+| 🛠️ Field Operations Layer | Installation tools, workflows, SOPs | Supports reliable service delivery and on‑site troubleshooting |
+| 📊 Reporting & Documentation Layer | Field logs, tuning reports, service records | Ensures traceability, quality assurance, and repeatability |
+
+## 📊 Metrics Analyzed
+
+| Metric Category | Purpose | Examples |
+|-----------------|----------|----------|
+| 📡 RF Performance Metrics | Validate signal health and noise levels | SNR, MER, upstream/downstream power |
+| ⚙️ DOCSIS Metrics | Ensure modem stability and throughput | Correctables/uncorrectables, ranging, channel bonding |
+| 🛠️ Field Operations Metrics | Improve service delivery and reduce repeat calls | First‑attempt resolution, call volume, escalation rate |
+| 📊 Infrastructure Health | Track plant reliability and upgrade impact | Amplifier performance, node health, noise sources |
+| 😊 Customer Experience Metrics | Measure service quality improvements | Resolution time, satisfaction indicators |
+
+────────────────────────────────────────────────────────────────────────────────
+
+## 🔐 Authentication Workflow
+*(Renamed for Charter as “Field Service Workflow” — same structural slot)*
+
+| Step | Action | Purpose |
+|------|--------|----------|
+| 1 | Receive customer issue and validate symptoms | Establish baseline understanding |
+| 2 | Perform RF and DOCSIS diagnostics | Identify noise, interference, or signal loss |
+| 3 | Inspect physical infrastructure | Locate damaged cables, connectors, or plant components |
+| 4 | Apply corrective actions and tune signal levels | Restore optimal performance |
+| 5 | Validate improvements with RF and DOCSIS metrics | Confirm stability and service quality |
+| 6 | Document findings and close service record | Ensure traceability and future reference |
+
+•••••••••••••••
 
 ## 🔧 Technical Workflows
 
@@ -105,7 +158,45 @@ By standardizing DOCSIS optimization and RF troubleshooting, this system enabled
 | 4 | Validate improvements with signal testing | Signal meters |
 | 5 | Document baseline and final metrics | Field reports |
 
----
+•••••••••••••••
+
+## 🔧 Common Troubleshooting Scenarios
+
+| Issue Type | Symptoms | Resolution |
+|------------|----------|------------|
+| 📡 Low Signal Levels | Slow speeds, modem drops | Adjust amplifiers, replace connectors, rebalance plant |
+| 🔍 Noise / Ingress | Fluctuating SNR, intermittent service | Identify interference source, repair or isolate |
+| ⚙️ DOCSIS Sync Issues | Modem not bonding channels | Re‑tune upstream/downstream levels, inspect cabling |
+| 🛠️ Physical Damage | No service, severe degradation | Replace damaged coax, splitters, or taps |
+| 📊 Customer‑Reported Intermittency | Random drops, inconsistent performance | Perform full RF analysis and validate with diagnostics |
+
+────────────────────────────────────────────────────────────────────────────────
+
+## 🚀 Deployment Workflow
+*(Renamed for Charter as “Infrastructure Deployment Workflow” — same structural slot)*
+
+| Step | Action | Purpose |
+|------|--------|----------|
+| 1 | Assess existing cable plant | Identify upgrade requirements |
+| 2 | Install or replace amplifiers, taps, and splitters | Improve physical layer reliability |
+| 3 | Perform RF alignment and signal tuning | Optimize downstream/upstream performance |
+| 4 | Validate improvements using diagnostics | Confirm SNR, MER, and power levels |
+| 5 | Document installation details | Maintain traceability and support future work |
+| 6 | Handoff to operations teams | Ensure continuity and readiness |
+
+•••••••••••••••
+
+## ✅ Key Outcomes
+
+| Outcome | Description |
+|---------|-------------|
+| 📈 Improved Service Reliability | Reduced noise, better signal levels, fewer outages |
+| ⚙️ Stabilized DOCSIS Performance | Consistent throughput and channel bonding |
+| 🔧 Faster Troubleshooting | Standardized workflows reduced resolution time |
+| 👥 Stronger Team Capability | Training and documentation improved field readiness |
+| 💰 Infrastructure Modernization | Delivered $240K in upgrades across service areas |
+
+•••••••••••••••
 
 ## 🚀 Key Achievements
 
@@ -141,96 +232,19 @@ By standardizing DOCSIS optimization and RF troubleshooting, this system enabled
 </tbody>
 </table>
 
----
+•••••••••••••••
 
-## 🧩 Architecture Overview
-```
-+---------------------------+
-|   Customer Report Issue   |
-+-------------+-------------+
-              |
-              v
-+---------------------------+
-|   Field Assessment        |
-| Signal levels • Noise     |
-+-------------+-------------+
-              |
-              v
-+---------------------------+
-|   RF Diagnostics          |
-| Spectrum analysis         |
-+-------------+-------------+
-              |
-              v
-+---------------------------+
-|   Signal Optimization     |
-| Tuning • Installation     |
-+-------------+-------------+
-              |
-              v
-+---------------------------+
-|   Validation & Testing    |
-| Quality check • Metrics   |
-+---------------------------+
-```
+## 🧩 Engineering Challenges Solved
 
----
+| Area | Challenge | Outcome |
+|------|-----------|---------|
+| 📡 Signal Quality & Noise | Interference, ingress, and poor SNR impacting customer service | Improved signal levels and reduced noise through targeted RF tuning |
+| ⚙️ DOCSIS Stability | Modem drops, speed inconsistencies, upstream noise | Standardized DOCSIS optimization workflows improving reliability |
+| 🔧 Field Troubleshooting | High volume of complex service calls | Achieved 95% first‑attempt resolution across 300+ monthly calls |
+| 🏗️ Infrastructure Modernization | Aging cable plant and outdated components | Delivered $240K in upgrades across multiple service areas |
+| 👥 Team Capability | Junior engineers lacking structured training | Built training materials and hands‑on mentorship programs |
 
-### 📷 Visual Architecture Diagram (PNG)
-
-![Charter Network Architecture](Network_Architecture_Layers.png)
-
----
-
-## 🧩 Architecture Layers
-
-| Layer | Components | Function |
-|-------|------------|----------|
-| 📡 Cable Infrastructure Layer | Coax plant, amplifiers, taps, splitters | Provides physical signal distribution across service areas |
-| 🔍 RF Diagnostics Layer | Spectrum analyzers, signal meters | Identifies noise, interference, and signal degradation |
-| ⚙️ DOCSIS Systems Layer | Modems, CMTS interactions, DOCSIS tuning | Ensures stable broadband performance and throughput |
-| 🛠️ Field Operations Layer | Installation tools, workflows, SOPs | Supports reliable service delivery and on‑site troubleshooting |
-| 📊 Reporting & Documentation Layer | Field logs, tuning reports, service records | Ensures traceability, quality assurance, and repeatability |
-
----
-
-## 📊 Metrics Analyzed
-
-| Metric Category | Purpose | Examples |
-|-----------------|----------|----------|
-| 📡 RF Performance Metrics | Validate signal health and noise levels | SNR, MER, upstream/downstream power |
-| ⚙️ DOCSIS Metrics | Ensure modem stability and throughput | Correctables/uncorrectables, ranging, channel bonding |
-| 🛠️ Field Operations Metrics | Improve service delivery and reduce repeat calls | First‑attempt resolution, call volume, escalation rate |
-| 📊 Infrastructure Health | Track plant reliability and upgrade impact | Amplifier performance, node health, noise sources |
-| 😊 Customer Experience Metrics | Measure service quality improvements | Resolution time, satisfaction indicators |
-
----
-
-## 🔐 Authentication Workflow
-*(Renamed for Charter as “Field Service Workflow” — same structural slot)*
-
-| Step | Action | Purpose |
-|------|--------|----------|
-| 1 | Receive customer issue and validate symptoms | Establish baseline understanding |
-| 2 | Perform RF and DOCSIS diagnostics | Identify noise, interference, or signal loss |
-| 3 | Inspect physical infrastructure | Locate damaged cables, connectors, or plant components |
-| 4 | Apply corrective actions and tune signal levels | Restore optimal performance |
-| 5 | Validate improvements with RF and DOCSIS metrics | Confirm stability and service quality |
-| 6 | Document findings and close service record | Ensure traceability and future reference |
-
----
-
-## 🔧 Common Troubleshooting Scenarios
-
-| Issue Type | Symptoms | Resolution |
-|------------|----------|------------|
-| 📡 Low Signal Levels | Slow speeds, modem drops | Adjust amplifiers, replace connectors, rebalance plant |
-| 🔍 Noise / Ingress | Fluctuating SNR, intermittent service | Identify interference source, repair or isolate |
-| ⚙️ DOCSIS Sync Issues | Modem not bonding channels | Re‑tune upstream/downstream levels, inspect cabling |
-| 🛠️ Physical Damage | No service, severe degradation | Replace damaged coax, splitters, or taps |
-| 📊 Customer‑Reported Intermittency | Random drops, inconsistent performance | Perform full RF analysis and validate with diagnostics |
-
----
+────────────────────────────────────────────────────────────────────────────────
 
 ## 🗂️ Repository Structure
 ```
@@ -245,8 +259,6 @@ Charter-Network-Engineering/
 │
 └── README.md                            # Main project documentation
 ```
----
-
 ### 📁 Directory Descriptions
 
 | Directory | Purpose |
@@ -254,7 +266,7 @@ Charter-Network-Engineering/
 | `artifacts/` | DOCSIS tuning workflow, RF analysis samples, and field documentation |
 | `scripts/` | Automated signal validation and diagnostic scripts |
 
----
+•••••••••••••••
 
 ### 📄 Key Files
 
@@ -264,33 +276,7 @@ Charter-Network-Engineering/
 | `artifacts/RF-Analysis-Log-Sample.md` | Sample RF analysis documentation and metrics |
 | `scripts/signal-check.sh` | Automated signal quality validation script |
 
----
-
-## 🚀 Deployment Workflow
-*(Renamed for Charter as “Infrastructure Deployment Workflow” — same structural slot)*
-
-| Step | Action | Purpose |
-|------|--------|----------|
-| 1 | Assess existing cable plant | Identify upgrade requirements |
-| 2 | Install or replace amplifiers, taps, and splitters | Improve physical layer reliability |
-| 3 | Perform RF alignment and signal tuning | Optimize downstream/upstream performance |
-| 4 | Validate improvements using diagnostics | Confirm SNR, MER, and power levels |
-| 5 | Document installation details | Maintain traceability and support future work |
-| 6 | Handoff to operations teams | Ensure continuity and readiness |
-
----
-
-## ✅ Key Outcomes
-
-| Outcome | Description |
-|---------|-------------|
-| 📈 Improved Service Reliability | Reduced noise, better signal levels, fewer outages |
-| ⚙️ Stabilized DOCSIS Performance | Consistent throughput and channel bonding |
-| 🔧 Faster Troubleshooting | Standardized workflows reduced resolution time |
-| 👥 Stronger Team Capability | Training and documentation improved field readiness |
-| 💰 Infrastructure Modernization | Delivered $240K in upgrades across service areas |
-
----
+────────────────────────────────────────────────────────────────────────────────
 
 ## 🔒 Confidentiality Notice
 
@@ -298,76 +284,7 @@ All documentation, workflows, and examples in this repository are fully sanitize
 No proprietary configurations, customer data, or internal operational details from Charter Communications are included.
 
 Content is provided solely for educational and portfolio demonstration purposes.
-
-
-
-## 📂 Repository Structure
-
-### **Artifacts & Documentation**
-
-| Type | File | Description |
-|------|------|-------------|
-| 📋 **Workflow** | [DOCSIS-Tuning-Workflow.md](artifacts/DOCSIS-Tuning-Workflow.md) | Standard operating procedure for DOCSIS optimization |
-| 📊 **Analysis** | [RF-Analysis-Log-Sample.md](artifacts/RF-Analysis-Log-Sample.md) | Sample RF analysis documentation and metrics |
-| 🐚 **Script** | [signal-check.sh](scripts/signal-check.sh) | Automated signal quality validation script |
-
-> **Note**: All files contain sanitized, illustrative data for privacy and confidentiality.
-
----
-
-## 📈 Business Impact
-
-<table>
-<thead>
-<tr>
-<th>Area</th>
-<th>Impact</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>😊 Customer Satisfaction</strong></td>
-<td>Increased through faster resolution times and reliable service delivery</td>
-</tr>
-<tr>
-<td><strong>🔄 Operational Efficiency</strong></td>
-<td>Reduced repeat service calls by standardizing troubleshooting approaches</td>
-</tr>
-<tr>
-<td><strong>💪 Team Capability</strong></td>
-<td>Strengthened through structured training and documentation</td>
-</tr>
-<tr>
-<td><strong>📊 Service Quality</strong></td>
-<td>Improved network reliability through proactive infrastructure upgrades</td>
-</tr>
-<tr>
-<td><strong>💰 Revenue Growth</strong></td>
-<td>$240K in modernization projects supporting service expansion</td>
-</tr>
-</tbody>
-</table>
-
----
-
-## 🔗 Professional Context
-
-- **Position**: Network Field Engineer
-- **Company**: Charter Communications
-- **Duration**: 2017–2019
-- **Location**: Field operations across service areas
-- **Portfolio**: [suren-jewels.github.io](https://suren-jewels.github.io)
-
----
-
-## 📫 Contact
-
-**Suren Jewels**  
-Senior Cloud Engineer | Infrastructure & Security Specialist
-
-*For inquiries about this experience or collaboration opportunities, please reach out via LinkedIn.*
-
----
+**Note**: All files contain sanitized, illustrative data for privacy and confidentiality.
 
 ## 📄 License
 
@@ -375,3 +292,13 @@ This repository contains sanitized, non‑sensitive documentation and workflows 
 All content is provided strictly for educational and portfolio demonstration purposes.
 
 No proprietary configurations, customer data, or confidential operational details are included.
+
+## 👔 Professional Context
+
+**Suren Jewels**  
+Senior Cloud Engineer | Infrastructure & Security Specialist
+
+*For inquiries about this experience or collaboration opportunities, please reach out via LinkedIn.*
+
+────────────────────────────────────────────────────────────────────────────────
+
