@@ -59,7 +59,7 @@ This position demonstrated expertise in **RF engineering, DOCSIS systems, field 
 </tbody>
 </table>
 
-────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────
 
 ## 🧠 System Summary
 
@@ -73,7 +73,7 @@ This work directly improved customer satisfaction, reduced repeat service calls,
 
 By standardizing DOCSIS optimization and RF troubleshooting, this system enabled faster resolution, stronger team capability, and measurable service quality improvements.
 
-────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────
 
 ## 🧩 Architecture Overview
 ```
@@ -130,7 +130,7 @@ By standardizing DOCSIS optimization and RF troubleshooting, this system enabled
 | 📊 Infrastructure Health | Track plant reliability and upgrade impact | Amplifier performance, node health, noise sources |
 | 😊 Customer Experience Metrics | Measure service quality improvements | Resolution time, satisfaction indicators |
 
-────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────
 
 ## 🔐 Authentication Workflow
 *(Renamed for Charter as “Field Service Workflow” — same structural slot)*
@@ -170,7 +170,7 @@ By standardizing DOCSIS optimization and RF troubleshooting, this system enabled
 | 🛠️ Physical Damage | No service, severe degradation | Replace damaged coax, splitters, or taps |
 | 📊 Customer‑Reported Intermittency | Random drops, inconsistent performance | Perform full RF analysis and validate with diagnostics |
 
-────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────
 
 ## 🚀 Deployment Workflow
 *(Renamed for Charter as “Infrastructure Deployment Workflow” — same structural slot)*
@@ -245,7 +245,7 @@ By standardizing DOCSIS optimization and RF troubleshooting, this system enabled
 | 🏗️ Infrastructure Modernization | Aging cable plant and outdated components | Delivered $240K in upgrades across multiple service areas |
 | 👥 Team Capability | Junior engineers lacking structured training | Built training materials and hands‑on mentorship programs |
 
-────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────
 
 ## 🗂️ Repository Structure
 ```
@@ -277,7 +277,7 @@ Charter-Network-Engineering/
 | `artifacts/RF-Analysis-Log-Sample.md` | Sample RF analysis documentation and metrics |
 | `scripts/signal-check.sh` | Automated signal quality validation script |
 
-────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────
 
 ## 🔒 Confidentiality Notice
 
@@ -301,5 +301,5 @@ Senior Cloud Engineer | Infrastructure & Security Specialist
 
 *For inquiries about this experience or collaboration opportunities, please reach out via LinkedIn.*
 
-────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────
 
