@@ -1,7 +1,20 @@
 # 🛠️ Troubleshooting Guide  
 **RF impairments • DOCSIS issues • Field diagnostics**
 
-This guide provides standardized troubleshooting steps for resolving common Charter network issues.
+This guide provides standardized troubleshooting steps for resolving common Charter network issues.  
+It covers RF analysis, DOCSIS stability, physical plant inspection, and customer‑reported service degradation.
+
+---
+
+## 🔧 Common Troubleshooting Scenarios
+
+| Issue Type | Symptoms | Resolution |
+|------------|----------|------------|
+| 📡 **Low Signal Levels** | Slow speeds, modem drops | Adjust amplifiers, replace connectors, rebalance plant |
+| 🔍 **Noise / Ingress** | Fluctuating SNR, intermittent service | Identify interference source, repair or isolate |
+| ⚙️ **DOCSIS Sync Issues** | Modem not bonding channels | Re‑tune upstream/downstream levels, inspect cabling |
+| 🛠️ **Physical Damage** | No service, severe degradation | Replace damaged coax, splitters, or taps |
+| 📊 **Customer‑Reported Intermittency** | Random drops, inconsistent performance | Perform full RF analysis and validate with diagnostics |
 
 ---
 
@@ -49,7 +62,7 @@ See:
 
 ### 5. Final Validation
 - Speed test  
-- SNR check  
+- SNR/MER check  
 - Customer confirmation  
 
 ---
@@ -58,6 +71,7 @@ See:
 - [`deployment-overview.md`](deployment-overview.md)  
 - [`runbook.md`](runbook.md)  
 - [`data-dictionary.md`](data-dictionary.md)  
+- [`RF-Analysis-Log-Sample.md`](RF-Analysis-Log-Sample.md)
 
 ---
 
