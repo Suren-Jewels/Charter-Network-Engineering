@@ -22,4 +22,5 @@ fi
 if [[ -n "$upstream" ]] && (( ${upstream%.*} < 30 )); then
   echo "Warning: Upstream SNR below threshold!"
 fi
+
 # This script is illustrative. Real modem pages vary; adjust parsing to your device’s HTML or API.
