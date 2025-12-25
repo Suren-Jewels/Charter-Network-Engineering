@@ -1,4 +1,4 @@
-# Charter Architecture Summary  
+# 📘 Charter Architecture Summary  
 **Infrastructure automation • Rack provisioning • Validation pipeline**
 
 This document provides a high‑level overview of the Charter system architecture.  
