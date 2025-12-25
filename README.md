@@ -198,11 +198,15 @@ Content is provided solely for professional demonstration.
 
 ---
 
-## 👔 Professional Context
+## 👔 Professional Context  
 
 **Suren Jewels**  
-Senior Cloud Engineer | Infrastructure & Security Specialist  
+Cloud & Infrastructure Engineer • Security & Automation Specialist  
 
-🔗 LinkedIn: https://www.linkedin.com/in/suren-jewels/  
-🔗 GitHub: https://github.com/Suren-Jewels  
+This repository showcases sanitized engineering patterns and automation workflows used in enterprise ServiceNow environments.
 
+- **LinkedIn:** [https://www.linkedin.com/in/suren-jewels/](https://www.linkedin.com/in/suren-jewels/)
+- **GitHub:** [https://github.com/Suren-Jewels](https://github.com/Suren-Jewels)
+- **Email:** [SurenJewelsPro@gmail.com](mailto:SurenJewelsPro@gmail.com)
+
+---
