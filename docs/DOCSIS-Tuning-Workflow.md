@@ -1,59 +1,56 @@
-# Architecture Summary
+# 🔧 DOCSIS Tuning Workflow  
+**Signal optimization • Modem stability • CMTS alignment**
 
-This document provides a high-level overview of the architecture supporting cable infrastructure, DOCSIS optimization, and RF diagnostics within Charter Communications’ broadband network. All information is fully sanitized and focuses on conceptual structure rather than proprietary implementation details.
-
----
-
-## 🧱 Core Architectural Components
-
-### **Cable Infrastructure Layer**
-Coax plant, amplifiers, taps, and splitters forming the physical distribution network.
-
-### **RF Diagnostics Layer**
-Spectrum analyzers, signal meters, and diagnostic tooling used to identify noise, interference, and signal degradation.
-
-### **DOCSIS Systems Layer**
-Modems, CMTS interactions, and DOCSIS tuning workflows ensuring stable broadband performance.
-
-### **Field Operations Layer**
-Installation tools, SOPs, and troubleshooting workflows supporting on-site service delivery.
-
-### **Reporting & Documentation Layer**
-Field logs, tuning reports, and service records ensuring traceability and quality assurance.
+This workflow provides a standardized procedure for tuning DOCSIS performance during field operations.
 
 ---
 
-## 🔄 Architecture Flow (High-Level)
-📡 Charter — Field Engineering Architecture
-
-### Components
-• Cable plant  
-• RF diagnostic tools  
-• DOCSIS systems  
-• Field workflows  
-• Reporting and documentation stack  
-
-### Flow
-1. Field engineer assesses signal levels and customer symptoms  
-2. RF diagnostics identify noise or degradation  
-3. Infrastructure components are tuned or replaced  
-4. DOCSIS metrics validate performance improvements  
-5. Findings are documented for operational continuity  
+## 1. Pre‑Tuning Checks
+- Validate physical installation  
+- Confirm modem online status  
+- Review upstream/downstream levels  
+- Check SNR and MER  
 
 ---
 
-## 🧩 Architectural Intent
+## 2. Spectrum Analysis
+- Identify ingress  
+- Detect suck‑outs or tilt  
+- Validate OFDM/OFDMA profiles  
+- Confirm no upstream noise spikes  
 
-The architecture is designed to ensure:
+---
 
-- Reliable broadband service delivery  
-- Accurate RF and DOCSIS diagnostics  
-- Repeatable troubleshooting workflows  
-- Reduced repeat service calls  
-- Improved customer satisfaction and operational efficiency  
+## 3. Corrective Actions
+- Replace damaged connectors or coax  
+- Adjust splitters or tap ports  
+- Correct signal imbalance  
+- Remove noise sources  
+
+---
+
+## 4. DOCSIS Layer Validation
+- Confirm modem bonding  
+- Validate CMTS registration  
+- Check profile stability  
+- Review modem logs  
+
+---
+
+## 5. Final Verification
+- Run throughput tests  
+- Validate SNR/MER  
+- Confirm customer service restoration  
+- Document tuning results  
+
+---
+
+## 🔗 Related Documentation
+- [`deployment-overview.md`](deployment-overview.md)  
+- [`troubleshooting-guide.md`](troubleshooting-guide.md)  
+- [`runbook.md`](runbook.md)  
 
 ---
 
 ## 🔒 Confidentiality Notice
-
-Detailed diagrams, internal network topology, and proprietary system configurations are intentionally omitted to maintain confidentiality. This summary reflects only high-level architectural concepts.
+All content is sanitized and contains no internal or proprietary operational details.
