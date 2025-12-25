@@ -77,13 +77,13 @@ This work reduced repeat service calls, improved customer satisfaction, and mode
 ```
 Charter-Network-Engineering/
 │
-├── architecture/
+├── architecture/                         # System diagrams, workflow maps, layered breakdowns
 │   ├── architecture-summary.md
 │   ├── architecture-layers.md
 │   ├── architecture-diagram.md
 │   └── Network_Architecture_Layers.png
 │
-├── docs/
+├── docs/                                  # Field workflows, diagnostics, SOPs, reference materials
 │   ├── deployment-overview.md
 │   ├── troubleshooting-guide.md
 │   ├── runbook.md
@@ -91,26 +91,54 @@ Charter-Network-Engineering/
 │   ├── DOCSIS-Tuning-Workflow.md
 │   └── RF-Analysis-Log-Sample.md
 │
-├── config/
+├── config/                                # Baselines, templates, operational definitions
 │   ├── rf-baseline-template.md
 │   ├── docsis-profile-template.md
 │   ├── field-operations-checklist.md
 │   ├── infrastructure-health-template.md
 │   └── customer-experience-template.md
 │
-├── scripts/
+├── scripts/                               # Diagnostics, RF analysis, DOCSIS checks, automation tools
 │   ├── rf-diagnostics.ps1
 │   ├── docsis-health-check.py
 │   ├── signal-level-capture.sh
-│   └── plant-health-audit.ps1
+│   ├── plant-health-audit.ps1
+│   └── signal-check.sh
 │
 └── README.md
 ```
 
+---
+
 ### ▣ Key Files
-📐 Architecture → [`/architecture`](architecture/)  
-🧰 Scripts → [`/scripts`](scripts/)  
-⚙ Configuration → [`/config`](config/)  
+
+#### 📐 Architecture  
+- [`architecture-summary.md`](architecture/architecture-summary.md)  
+- [`architecture-layers.md`](architecture/architecture-layers.md)  
+- [`architecture-diagram.md`](architecture/architecture-diagram.md)  
+- [`Network_Architecture_Layers.png`](architecture/Network_Architecture_Layers.png)  
+
+#### 📄 Documentation  
+- [`deployment-overview.md`](docs/deployment-overview.md)  
+- [`troubleshooting-guide.md`](docs/troubleshooting-guide.md)  
+- [`runbook.md`](docs/runbook.md)  
+- [`data-dictionary.md`](docs/data-dictionary.md)  
+- [`DOCSIS-Tuning-Workflow.md`](docs/DOCSIS-Tuning-Workflow.md)  
+- [`RF-Analysis-Log-Sample.md`](docs/RF-Analysis-Log-Sample.md)  
+
+#### ⚙ Configuration  
+- [`rf-baseline-template.md`](config/rf-baseline-template.md)  
+- [`docsis-profile-template.md`](config/docsis-profile-template.md)  
+- [`field-operations-checklist.md`](config/field-operations-checklist.md)  
+- [`infrastructure-health-template.md`](config/infrastructure-health-template.md)  
+- [`customer-experience-template.md`](config/customer-experience-template.md)  
+
+#### 🧰 Scripts  
+- [`rf-diagnostics.ps1`](scripts/rf-diagnostics.ps1)  
+- [`docsis-health-check.py`](scripts/docsis-health-check.py)  
+- [`signal-level-capture.sh`](scripts/signal-level-capture.sh)  
+- [`plant-health-audit.ps1`](scripts/plant-health-audit.ps1)  
+- [`signal-check.sh`](scripts/signal-check.sh)  
 
 ---
 
