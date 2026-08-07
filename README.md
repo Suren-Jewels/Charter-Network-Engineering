@@ -200,7 +200,7 @@ Content is provided solely for professional demonstration.
 
 ## 👔 Professional Context  
 
-**Suren Jewels**  
+**Suren A. Jewels**  
 Cloud & Infrastructure Engineer • Security & Automation Specialist  
 
 This repository showcases sanitized engineering patterns and automation workflows used in enterprise ServiceNow environments.
